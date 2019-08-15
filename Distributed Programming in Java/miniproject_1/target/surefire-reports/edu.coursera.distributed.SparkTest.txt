@@ -1,0 +1,364 @@
+-------------------------------------------------------------------------------
+Test set: edu.coursera.distributed.SparkTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec <<< FAILURE! - in edu.coursera.distributed.SparkTest
+warning(junit.framework.TestSuite$1)  Time elapsed: 0.007 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception in constructor: testUniformTwentyThousand (java.lang.Error: Unresolved compilation problems: 
+	The import scala cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	The type scala.Tuple2 cannot be resolved. It is indirectly referenced from required .class files
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+
+	at edu.coursera.distributed.SparkTest.<init>(SparkTest.java:3)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at junit.framework.TestSuite.createTest(TestSuite.java:54)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:280)
+	at junit.framework.TestSuite.<init>(TestSuite.java:140)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.constructTestObject(JUnit3Reflector.java:126)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:70)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:90)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+warning(junit.framework.TestSuite$1)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception in constructor: testIncreasingFiftyThousand (java.lang.Error: Unresolved compilation problems: 
+	The import scala cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	The type scala.Tuple2 cannot be resolved. It is indirectly referenced from required .class files
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+
+	at edu.coursera.distributed.SparkTest.<init>(SparkTest.java:3)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at junit.framework.TestSuite.createTest(TestSuite.java:54)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:280)
+	at junit.framework.TestSuite.<init>(TestSuite.java:140)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.constructTestObject(JUnit3Reflector.java:126)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:70)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:90)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+warning(junit.framework.TestSuite$1)  Time elapsed: 0.003 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception in constructor: testRandomFiftyThousand (java.lang.Error: Unresolved compilation problems: 
+	The import scala cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	The type scala.Tuple2 cannot be resolved. It is indirectly referenced from required .class files
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+
+	at edu.coursera.distributed.SparkTest.<init>(SparkTest.java:3)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at junit.framework.TestSuite.createTest(TestSuite.java:54)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:280)
+	at junit.framework.TestSuite.<init>(TestSuite.java:140)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.constructTestObject(JUnit3Reflector.java:126)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:70)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:90)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+warning(junit.framework.TestSuite$1)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception in constructor: testIncreasingTwentyThousand (java.lang.Error: Unresolved compilation problems: 
+	The import scala cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	The type scala.Tuple2 cannot be resolved. It is indirectly referenced from required .class files
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+
+	at edu.coursera.distributed.SparkTest.<init>(SparkTest.java:3)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at junit.framework.TestSuite.createTest(TestSuite.java:54)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:280)
+	at junit.framework.TestSuite.<init>(TestSuite.java:140)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.constructTestObject(JUnit3Reflector.java:126)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:70)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:90)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+warning(junit.framework.TestSuite$1)  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception in constructor: testUniformFiftyThousand (java.lang.Error: Unresolved compilation problems: 
+	The import scala cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	The type scala.Tuple2 cannot be resolved. It is indirectly referenced from required .class files
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+
+	at edu.coursera.distributed.SparkTest.<init>(SparkTest.java:3)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at junit.framework.TestSuite.createTest(TestSuite.java:54)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:280)
+	at junit.framework.TestSuite.<init>(TestSuite.java:140)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.constructTestObject(JUnit3Reflector.java:126)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:70)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:90)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+warning(junit.framework.TestSuite$1)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception in constructor: testRandomTwentyThousand (java.lang.Error: Unresolved compilation problems: 
+	The import scala cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	Logger cannot be resolved
+	Level cannot be resolved to a variable
+	The type scala.Tuple2 cannot be resolved. It is indirectly referenced from required .class files
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	This lambda expression refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+	The method collect() from the type AbstractJavaRDDLike<Tuple2<Integer,Double>,JavaPairRDD<Integer,Double>> refers to the missing type Tuple2
+	Tuple2 cannot be resolved to a type
+
+	at edu.coursera.distributed.SparkTest.<init>(SparkTest.java:3)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at junit.framework.TestSuite.createTest(TestSuite.java:54)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:280)
+	at junit.framework.TestSuite.<init>(TestSuite.java:140)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.constructTestObject(JUnit3Reflector.java:126)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:70)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:90)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:108)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
